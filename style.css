@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    color: black;
+    margin: 40px;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: darkblue;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: blue;
+}
+
+li {
+    margin-bottom: 20px;
+}
