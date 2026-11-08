@@ -1,6 +1,6 @@
 body {
     font-family: Arial;
-    background-color: lightblue;
+    background-color: #e3f9fa;
     color: black;
     margin: 40px;
 }
@@ -8,20 +8,22 @@ body {
 h1 {
     color: darkblue;
     text-align: center;
-}
-
-h2 {
-    color: darkblue;
+    font-size: 36px;
+    margin-bottom: 25px;
 }
 
 p {
     font-size: 18px;
+    line-height: 1.6;
+    max-width: 750px;
 }
 
 img {
-    width: 350px;
+   width: 300px;
+    max-width: 100%;
+    height: auto;
     display: block;
-    margin: auto;
+   margin: 0 auto 35px;
 }
 
 a {
@@ -29,5 +31,16 @@ a {
 }
 
 li {
+    margin-bottom: 20px;
+}
+
+body {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-top: 35px;
     margin-bottom: 20px;
 }
